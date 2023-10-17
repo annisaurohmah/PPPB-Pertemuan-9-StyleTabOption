@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Course</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <style name="CustomRoundedButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <!-- Anda bisa menambahkan atribut lain seperti padding, textColor, dll. -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="CustomTextView18Bold" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
